@@ -1,0 +1,134 @@
+.containerLarge {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+nav {
+    background-color: #f7f7f7;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+nav a {
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #59514A;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 12px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #8E3A4E;
+}
+.right {
+    float: right;
+    margin-right: 20px;
+}
+header {
+    height: 630px;
+    background-image: url("Images/spring.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+h1 {
+    padding-top: 375px;
+    padding-left: 50px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 50px;
+    color: #f7f7f7;
+}
+header p {
+    padding-top: 15px;
+    padding-left: 80px;
+    font-family: "Helvetica", sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #E8DC4E;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.leftAboutPanel {
+    width: 100%;
+    background-color: #8E3A4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+    color: #f7f7f7;
+    order: 1;
+}
+.rightAboutPanel {
+    width: 100%;
+    font-family: "Helvetica", sans-serif;
+    color: #59514A;
+}
+.containerSmall {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.about p {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about li {
+    font-size: 15px;
+}
+h3 {
+    font-size: 17px;
+    color: #8E3A4E;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.softSkills {
+    height: 45px;
+}
+.softSkills li {
+    width: 33%;
+    float: left;
+}
+.techSkills li {
+    padding-bottom: 2px;
+}
+.techSkills span {
+    font-weight: bold;
+    float: left;
+    width: 300px;
+}
+.currentProjects ul li {
+    list-style-type: square;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+h4 {
+    font-size: 19px;
+    color: #59514A;
+    font-weight: bold;
+}
+.portfolio {
+    margin-top: 20px;
+}
+.portfolio p {
+    font-family: "Helvetica", sans-serif;
+    color: #59514A;
+}
+.btn-default {
+    color: #59514A;
+/*    display: inline-block;*/
+/*    text-align: center;*/
+}
+.btn-default img {
+    float: left;
+    padding-right: 3px;
+/*    display: inline-block;*/
+}
