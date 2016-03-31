@@ -3,12 +3,13 @@
     margin: 0 auto;
 }
 nav {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     height: 60px;
     line-height: 60px;
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 nav a {
     font-family: "Helvetica", sans-serif;
@@ -28,25 +29,40 @@ nav a:hover {
     margin-right: 20px;
 }
 header {
-    height: 630px;
+    height: 727px;
     background-image: url("Images/spring.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 h1 {
     padding-top: 375px;
+    padding-bottom: 10px;
     padding-left: 50px;
     font-family: "Helvetica", sans-serif;
     font-size: 50px;
-    color: #f7f7f7;
+    color: #ffffff;
 }
 header p {
-    padding-top: 15px;
     padding-left: 80px;
+    padding-bottom: 50px;
     font-family: "Helvetica", sans-serif;
-    font-style: italic;
-    font-size: 25px;
-    color: #E8DC4E;
+    font-size: 22px;
+    color: #9C9386;
+}
+header div p {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
+    color: #59514A;
+    text-align: justify;
+    width: 695px;
+}
+.intro {
+    padding-top: 20px;
+    background-color: #ffffff;
+    opacity: 0.5;
 }
 .about {
     display: flex;
