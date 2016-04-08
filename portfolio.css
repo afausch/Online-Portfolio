@@ -29,14 +29,14 @@ nav a:hover {
     margin-right: 20px;
 }
 header {
-    height: 700px;
+    height: 600px;
     background-image: url("Images/spring.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
 }
 h1 {
-    padding-top: 375px;
+    padding-top: 400px;
     padding-bottom: 10px;
     padding-left: 50px;
     font-family: "Varela Round", sans-serif;
@@ -50,25 +50,20 @@ header p {
     font-size: 22px;
     color: #9C9386;
 }
-header div p {
-    padding-left: 50px;
+.about p {
     padding-bottom: 15px;
     font-family: "Varela Round", sans-serif;
     font-size: 15px;
     color: #59514A;
     text-align: justify;
-    width: 695px;
-}
-.intro {
-    padding-top: 20px;
-    background-color: #ffffff;
-    opacity: 0.5;
-}
-.about {
-    background-color: #A8546B;
 }
 .about span {
     font-weight: bold;
+}
+.about li {
+   font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    color: #59514A; 
 }
 h2 {
     font-family: "Varela Round", sans-serif;
