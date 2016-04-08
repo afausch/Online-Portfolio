@@ -29,7 +29,7 @@ nav a:hover {
     margin-right: 20px;
 }
 header {
-    height: 727px;
+    height: 700px;
     background-image: url("Images/spring.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -65,7 +65,10 @@ header div p {
     opacity: 0.5;
 }
 .about {
-    height: 400px;
+    background-color: #A8546B;
+}
+.about span {
+    font-weight: bold;
 }
 h2 {
     font-family: "Lato", sans-serif;
@@ -81,26 +84,6 @@ h3 {
     font-size: 17px;
     font-weight: bold;
     color: #8E3A4E;
-}
-.softSkills {
-    margin-left: 100px;
-    margin-bottom: 15px;
-}
-.softSkills li {
-    width: 33%;
-    float: left;
-}
-.techSkills {
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.techSkills li {
-    padding-bottom: 2px;
-}
-.techSkills span {
-    font-weight: bold;
-    float: left;
-    width: 300px;
 }
 h4 {
     font-size: 19px;
