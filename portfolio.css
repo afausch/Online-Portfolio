@@ -58,10 +58,13 @@ header p {
     text-align: justify;
 }
 .about span {
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
     font-weight: bold;
+    color: #59514A; 
 }
 .about li {
-   font-family: "Varela Round", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-size: 15px;
     color: #59514A; 
 }
