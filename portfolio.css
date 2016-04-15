@@ -84,9 +84,11 @@ h3 {
     color: #8E3A4E;
 }
 h4 {
-    font-size: 19px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 17px;
     color: #59514A;
     font-weight: bold;
+    text-align: center;
 }
 .portfolio {
     margin-top: 20px;
@@ -94,11 +96,16 @@ h4 {
 .portfolio p {
     font-family: "Varela Round", sans-serif;
     color: #59514A;
+    text-align: center;
 }
 .btn-default {
     color: #59514A;
+/*    border: none;*/
 }
 .btn-default img {
     float: left;
     padding-right: 3px;
+}
+.thumbnail {
+    border: none;
 }
