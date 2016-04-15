@@ -98,6 +98,9 @@ h4 {
     color: #59514A;
     text-align: center;
 }
+.portfolio img {
+    border: 1px solid #59514A;
+}
 .btn-default {
     color: #59514A;
 /*    border: none;*/
