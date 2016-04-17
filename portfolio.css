@@ -55,7 +55,6 @@ header p {
     font-family: "Varela Round", sans-serif;
     font-size: 15px;
     color: #59514A;
-    text-align: justify;
 }
 .about span {
     font-family: "Varela Round", sans-serif;
@@ -68,12 +67,15 @@ header p {
     font-size: 15px;
     color: #59514A; 
 }
+.about i {
+    color: #8a8580; 
+    padding-bottom: 5px;
+}
 h2 {
     font-family: "Varela Round", sans-serif;
     font-size: 25px;
     font-weight: bold;
     color: #8E3A4E;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -88,7 +90,6 @@ h4 {
     font-size: 17px;
     color: #59514A;
     font-weight: bold;
-    text-align: center;
 }
 .portfolio {
     margin-top: 20px;
@@ -96,7 +97,6 @@ h4 {
 .portfolio p {
     font-family: "Varela Round", sans-serif;
     color: #59514A;
-    text-align: center;
 }
 .portfolio img {
     border: 1px solid #59514A;
