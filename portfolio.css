@@ -1,3 +1,6 @@
+body {
+    font-family: "Varela Round", sans-serif;
+}
 .containerLarge {
     max-width: 1170px;
     margin: 0 auto;
@@ -12,7 +15,6 @@ nav {
     z-index: 1;
 }
 nav a {
-    font-family: "Varela Round", sans-serif;
     font-weight: bold;
     font-size: 16px;
     color: #59514A;
@@ -39,31 +41,26 @@ h1 {
     padding-top: 400px;
     padding-bottom: 10px;
     padding-left: 50px;
-    font-family: "Varela Round", sans-serif;
     font-size: 50px;
     color: #ffffff;
 }
 header p {
     padding-left: 80px;
     padding-bottom: 50px;
-    font-family: "Varela Round", sans-serif;
     font-size: 22px;
     color: #9C9386;
 }
 .about p {
     padding-bottom: 15px;
-    font-family: "Varela Round", sans-serif;
     font-size: 15px;
     color: #59514A;
 }
 .about span {
-    font-family: "Varela Round", sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #59514A; 
 }
 .about li {
-    font-family: "Varela Round", sans-serif;
     font-size: 15px;
     color: #59514A; 
 }
@@ -72,7 +69,6 @@ header p {
     padding-bottom: 5px;
 }
 h2 {
-    font-family: "Varela Round", sans-serif;
     font-size: 25px;
     font-weight: bold;
     color: #8E3A4E;
@@ -80,13 +76,11 @@ h2 {
     padding-bottom: 20px;
 }
 h3 {
-    font-family: "Varela Round", sans-serif;
     font-size: 17px;
     font-weight: bold;
     color: #8E3A4E;
 }
 h4 {
-    font-family: "Varela Round", sans-serif;
     font-size: 17px;
     color: #59514A;
     font-weight: bold;
@@ -95,7 +89,6 @@ h4 {
     margin-top: 20px;
 }
 .portfolio p {
-    font-family: "Varela Round", sans-serif;
     color: #59514A;
 }
 .portfolio img {
