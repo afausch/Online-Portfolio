@@ -72,6 +72,10 @@ h3 {
     color: #8a8580; 
     padding-bottom: 5px;
 }
+.about span {
+    font-size: 15px;
+    color: #59514A;
+}
 .indent {
     padding-left: 15px;
 }
@@ -87,6 +91,7 @@ h4 {
     margin-top: 20px;
 }
 .portfolio p {
+    font-size: 15px;
     color: #59514A;
 }
 .portfolio img {
@@ -105,4 +110,31 @@ h4 {
 }
 .thumbnail {
     border: none;
+}
+.contact {
+    background-color: #8E3A4E;
+    height: 400px;
+}
+.contact h2 {
+    color: #ffffff;
+}
+.contact p {
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.contact i {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+.contact span {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
 }
