@@ -32,7 +32,7 @@ nav a:hover {
 }
 header {
     height: 600px;
-    background-image: url("Images/spring.jpg");
+    background-image: url("images/spring.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
