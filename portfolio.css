@@ -1,18 +1,14 @@
 body {
     font-family: "Varela Round", sans-serif;
 }
+/*
 .containerLarge {
     max-width: 1170px;
     margin: 0 auto;
 }
+*/
 nav {
-    background-color: #ffffff;
-    height: 60px;
     line-height: 60px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
 }
 nav a {
     font-weight: bold;
@@ -26,9 +22,8 @@ nav a:hover {
     text-decoration: underline;
     color: #8E3A4E;
 }
-.right {
-    float: right;
-    margin-right: 20px;
+.navbar-default {
+    background-color: #ffffff;
 }
 header {
     height: 600px;
