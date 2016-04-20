@@ -19,21 +19,21 @@ nav a {
     margin: 0 12px;
 }
 nav a:hover {
-    text-decoration: underline;
-    color: #8E3A4E;
+    text-decoration: underline !important;
+    color: #8E3A4E !important;
 }
 .navbar-default {
     background-color: #ffffff;
 }
 header {
-    height: 600px;
     background-image: url("images/spring.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
 }
 h1 {
-    padding-top: 400px;
+    margin-top: 400px;
+/*    padding-top: 400px;*/
     padding-bottom: 10px;
     padding-left: 50px;
     font-size: 50px;
