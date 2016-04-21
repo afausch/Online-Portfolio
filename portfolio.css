@@ -26,24 +26,39 @@ nav a:hover {
     background-color: #ffffff;
 }
 header {
-    background-image: url("images/spring.jpg");
+    background-image: url("images/springFIN.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+header .overlay {
+    bottom: 10%;
+    position: absolute;
+    padding-left: 50px;
+    width: 100%;
 }
 h1 {
-    margin-top: 400px;
-/*    padding-top: 400px;*/
-    padding-bottom: 10px;
-    padding-left: 50px;
     font-size: 50px;
     color: #ffffff;
 }
+@media (max-width: 700px) {
+    h1 {
+        font-size: 32px;  
+        color: #A79E38;
+    }
+}
 header p {
-    padding-left: 80px;
-    padding-bottom: 50px;
     font-size: 22px;
     color: #9C9386;
+}
+@media (max-width: 700px) {
+    header p {
+        font-size: 16px;
+    }
 }
 h2 {
     font-size: 25px;
