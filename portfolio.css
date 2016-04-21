@@ -1,12 +1,6 @@
 body {
     font-family: "Varela Round", sans-serif;
 }
-/*
-.containerLarge {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-*/
 nav {
     line-height: 60px;
 }
@@ -67,7 +61,7 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.about {
+.about, .contact {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -127,7 +121,7 @@ h4 {
 }
 .contact {
     background-color: #8E3A4E;
-    height: 400px;
+    min-height: 400px;
 }
 .contact h2 {
     color: #ffffff;
