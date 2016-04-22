@@ -61,10 +61,6 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.about, .contact {
-    padding-right: 20px;
-    padding-left: 20px;
-}
 .about p {
     padding-bottom: 15px;
     font-size: 15px;
@@ -79,6 +75,16 @@ h3 {
 .about i {
     color: #8a8580; 
     padding-bottom: 5px;
+}
+@media (max-width: 400px) {
+    .col-xxs-12 {
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 .about span {
     font-size: 15px;
@@ -121,7 +127,7 @@ h4 {
 }
 .contact {
     background-color: #8E3A4E;
-    min-height: 400px;
+    min-height: 425px;
 }
 .contact h2 {
     color: #ffffff;
