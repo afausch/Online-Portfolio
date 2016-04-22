@@ -132,11 +132,20 @@ h4 {
 .contact h2 {
     color: #ffffff;
 }
-.contact p {
+#map {
+    width: 400px;
+    height: 300px;
+    background-color: #CCC;
+}
+@media (max-width: 450px) {
+    #map {
+        width: 300px;
+    }
+}
+.contact .description {
     font-size: 15px;
     color: #ffffff;
     padding-top: 50px;
-    padding-right: 50px;
 }
 .contact i {
     color: #ffffff;
