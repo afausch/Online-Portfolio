@@ -271,6 +271,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+        $(document).on('click.nav', '.navbar-collapse.in',  function(e) {
+            if($(e.target).is('a') || $(e.target).is('button')) {
+                $(this).collapse('hide');
+            }
+        });
+    </script>
+    <script>
         function initMap() {
             var mapDiv = document.getElementById('map');
             var map = new google.maps.Map(mapDiv, {
