@@ -61,6 +61,9 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.about {
+    padding-top: 30px;
+}
 .about p {
     padding-bottom: 15px;
     font-size: 15px;
@@ -102,7 +105,7 @@ h4 {
     font-weight: bold;
 }
 .portfolio {
-    margin-top: 20px;
+    padding-top: 30px;
 }
 .portfolio p {
     font-size: 15px;
