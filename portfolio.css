@@ -41,8 +41,7 @@ h1 {
 }
 @media (max-width: 700px) {
     h1 {
-        font-size: 32px;  
-        color: #A79E38;
+        font-size: 32px;
     }
 }
 header p {
@@ -57,7 +56,7 @@ header p {
 h2 {
     font-size: 25px;
     font-weight: bold;
-    color: #8E3A4E;
+    color: #D7556B;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -72,7 +71,7 @@ h2 {
 h3 {
     font-size: 17px;
     font-weight: bold;
-    color: #8E3A4E;
+    color: #D7556B;
     padding-bottom: 10px;
 }
 .about i {
@@ -97,7 +96,7 @@ h3 {
     padding-left: 15px;
 }
 .progress-bar-primary {
-    background-color: #8E3A4E;
+    background-color: #D7556B;
 }
 h4 {
     font-size: 17px;
@@ -133,7 +132,7 @@ h4 {
 .contact {
     padding-top: 30px;
     padding-bottom: 15px;
-    background-color: #8E3A4E;
+    background-color: #D7556B;
     min-height: 475px;
 }
 .contact h2 {
