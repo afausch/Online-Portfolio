@@ -129,11 +129,20 @@ h4 {
     border: none;
     background: #EAEAEA;
 }
+.headshot {
+    background-image: url("images/Angela-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 650px;
+    width: 100%; 
+}
 .contact {
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     background-color: #D7556B;
-    min-height: 475px;
+    min-height: 400px;
 }
 .contact h2 {
     color: #ffffff;
