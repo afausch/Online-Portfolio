@@ -14,7 +14,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline !important;
-    color: #D7556B !important;
+    color: #c9585c !important;
 }
 .navbar-default {
     background-color: #ffffff;
@@ -56,7 +56,7 @@ header p {
 h2 {
     font-size: 25px;
     font-weight: bold;
-    color: #D7556B;
+    color: #c9585c;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -71,7 +71,7 @@ h2 {
 h3 {
     font-size: 17px;
     font-weight: bold;
-    color: #D7556B;
+    color: #c9585c;
     padding-bottom: 10px;
 }
 .about i {
@@ -96,7 +96,7 @@ h3 {
     padding-left: 15px;
 }
 .progress-bar-primary {
-    background-color: #D7556B;
+    background-color: #c9585c;
 }
 h4 {
     font-size: 17px;
@@ -118,7 +118,7 @@ h4 {
     color: #59514A;
 }
 .btn-default:hover {
-    background-color: #8E3A4E;
+    background-color: #cd676a;
     color: #ffffff;
 }
 .btn-default i {
@@ -141,7 +141,7 @@ h4 {
 .contact {
     padding-top: 5px;
     padding-bottom: 30px;
-    background-color: #D7556B;
+    background-color: #cd676a;
     min-height: 400px;
 }
 .contact h2 {
