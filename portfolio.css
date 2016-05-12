@@ -20,12 +20,12 @@ nav a:hover {
     background-color: #ffffff;
 }
 header {
-    background-image: url("images/springFIN.jpg");
+    background-image: url("images/Angela-15.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 600px;
+    height: 625px;
     width: 100%;
     position: relative;
 }
